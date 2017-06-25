@@ -12,6 +12,7 @@
 		27454AD31EFF7F3600528C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27454AD11EFF7F3600528C4E /* Main.storyboard */; };
 		27454AD51EFF7F3600528C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27454AD41EFF7F3600528C4E /* Assets.xcassets */; };
 		27454AD81EFF7F3600528C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27454AD61EFF7F3600528C4E /* LaunchScreen.storyboard */; };
+		27C2C99D1EFFA39C00779BD7 /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 27454ADF1EFF7FF500528C4E /* Cars.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		27454AD41EFF7F3600528C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27454AD71EFF7F3600528C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27454AD91EFF7F3600528C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27454ADF1EFF7FF500528C4E /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				27454AD41EFF7F3600528C4E /* Assets.xcassets */,
 				27454AD61EFF7F3600528C4E /* LaunchScreen.storyboard */,
 				27454AD91EFF7F3600528C4E /* Info.plist */,
+				27454ADF1EFF7FF500528C4E /* Cars.mlmodel */,
 			);
 			path = MachineLearningIntro;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				27454AD01EFF7F3600528C4E /* ViewController.swift in Sources */,
 				27454ACE1EFF7F3600528C4E /* AppDelegate.swift in Sources */,
+				27C2C99D1EFFA39C00779BD7 /* Cars.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				27454ADE1EFF7F3600528C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
